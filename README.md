@@ -1,9 +1,23 @@
-## Project Notes :
+## This app has the following features:
 
-- Some NextJs features used in this solution are:
-  - Pre-fetching data at server-side on request
-  - Image optimisation
-  - Automatic routing via pages router
+- When first starting a session, the user will be prompted for a username and job title
+- Once entered, these will persist between reloads (stored in session storage)
+- The user can later edit these details from the home page
+- The information page will display a paginated list of anime titles fetched from an external graphql api
+- Pagination works via buttons or browser url.
+- Clicking on one of the titles will show additional information
+
+## Some NextJs features used in this solution are:
+
+- Pre-fetching data at server-side on request
+- Image optimisation
+- Automatic routing via pages router
+
+## Some limitations of this version:
+
+- No error handling for the external api
+- Limited responsiveness
+- Limited styling
 
 ## Getting Started
 
